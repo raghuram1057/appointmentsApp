@@ -1,0 +1,36 @@
+/* Write your CSS here */
+.item-container {
+  border: #b5b7c4 1px solid;
+  border-radius: 9px;
+  max-width: 576px;
+  padding: 8px;
+  min-height: 80px;
+  margin-left: 16px;
+  margin-top: 15px;
+}
+.star-button {
+  outline: none;
+  background-color: transparent;
+  border: none;
+  margin-bottom: 26px;
+}
+.local-elements-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.title {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 17px;
+}
+.date-style {
+  color: #b5b7c4;
+  font-family: 'Roboto';
+  font-size: 13px;
+}
+.star-img {
+  height: 20px;
+}
